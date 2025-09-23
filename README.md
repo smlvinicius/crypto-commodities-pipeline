@@ -12,19 +12,20 @@ Este projeto coleta preços de Bitcoin e Commodities e salva em um banco de dado
 1. Clone o repositório
 
    git clone https://github.com/smlvinicius/crypto-commodities-pipeline.git
+
    cd crypto-commodities-pipeline
 
-2. Crie um ambiente virtual:
+3. Crie um ambiente virtual:
  
    python -m venv .venv
    source .venv/bin/activate   # Linux/Mac
    .venv\Scripts\activate      # Windows
 
-3. Instale as Dependências:
+4. Instale as Dependências:
   
     pip install -r requiriments.txt
 
-4. Configure suas variaveis no arquivo .env
+5. Configure suas variaveis no arquivo .env
    Preencha os valores reais no arquivo .env.
    Exemplo:
    
@@ -35,7 +36,7 @@ Este projeto coleta preços de Bitcoin e Commodities e salva em um banco de dado
    DB_NAME=meu_banco
    URL=https://api.exemplo.com
 
-5. Execute o script principal:
+6. Execute o script principal:
     
     python GetPrices_loop_db.py
 
