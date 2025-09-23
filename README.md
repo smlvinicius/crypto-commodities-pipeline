@@ -17,9 +17,9 @@ Este projeto coleta preços de Bitcoin e Commodities e salva em um banco de dado
 
 3. Crie um ambiente virtual:
  
-   python -m venv .venv
-   source .venv/bin/activate   
-   .venv\Scripts\activate      
+   - python -m venv .venv
+   - source .venv/bin/activate   
+   - .venv\Scripts\activate      
 
 4. Instale as Dependências:
   
@@ -29,12 +29,12 @@ Este projeto coleta preços de Bitcoin e Commodities e salva em um banco de dado
    Preencha os valores reais no arquivo .env.
    Exemplo:
    
-   DB_USER=meu_usuario
-   DB_PASSWORD=minha_senha
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_NAME=meu_banco
-   URL=https://api.exemplo.com
+   - DB_USER=meu_usuario
+   - DB_PASSWORD=minha_senha
+   - DB_HOST=localhost
+   - DB_PORT=5432
+   - DB_NAME=meu_banco
+ 
 
 6. Execute o script principal:
     
