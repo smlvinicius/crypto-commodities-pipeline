@@ -54,3 +54,35 @@ Este script coleta preços de **Bitcoin** e **Commodities** e salva em um banco 
    - Conta no Supabase "https://supabase.com/"
      
 ## Abaixo um fluxograma seguindo a lógica de execução
+
+   +-------------------+
+|   APIs Externas   |
+| (Cripto & Commodities) |
++---------+---------+
+          |
+          v
++-------------------+
+|   Coleta de Dados |
+|   (Python scripts)|
++---------+---------+
+          |
+          v
++-------------------+
+|  Processamento /  |
+|  Transformações   |
+|  (Limpeza)        |
++---------+---------+
+          |
+          v
++-------------------+
+|  Armazenamento    |
+|   PostgreSQL      |
++---------+---------+
+          |
+          v
++-------------------+
+|  Consulta /       |
+|  Análise / BI     |
+| (Opcional)        |
++-------------------+
+
