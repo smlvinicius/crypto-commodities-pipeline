@@ -1,39 +1,45 @@
-# Crypto & Commodities Pipeline
+Crypto & Commodities Pipeline
 
-Este projeto coleta preços de **Bitcoin** e **commodities** e salva em um banco de dados PostgreSQL. (SupaBase)
+Este projeto coleta preços de Bitcoin e Commodities e salva em um banco de dados PostgreSQL (SupaBase).
 
-## 🚀 Estrutura do projeto
+ 🚀 Estrutura do projeto
 - `GetBitcoin.py` → coleta dados do Bitcoin  
 - `GetCommodities.py` → coleta dados de commodities  
 - `GetPrices_loop_db.py` → integra e salva no banco  
 
-## 🛠️ Como rodar
+ 🛠️ Como rodar
 
-1. Crie um ambiente virtual:
-   ```bash
+1. Clone o repositório
+
+   git clone https://github.com/smlvinicius/crypto-commodities-pipeline.git
+   cd crypto-commodities-pipeline
+
+2. Crie um ambiente virtual:
+ 
    python -m venv .venv
    source .venv/bin/activate   # Linux/Mac
    .venv\Scripts\activate      # Windows
 
-2. Instale as Dependências:
+3. Instale as Dependências:
   
     pip install -r requiriments.txt
 
-3. Configure suas variaveis no arquivo .env
+4. Configure suas variaveis no arquivo .env
+   Preencha os valores reais no arquivo .env.
+   Exemplo:
+   
+   DB_USER=meu_usuario
+   DB_PASSWORD=minha_senha
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_NAME=meu_banco
+   URL=https://api.exemplo.com
 
-4. Execute o script principal:
+5. Execute o script principal:
     
     python GetPrices_loop_db.py
 
-📦 Requisitos
+📦 Requisitos:
 
-    Python 3.10+
-    Conta no Supabase "https://supabase.com/"
-
-5. Salve (`CTRL+S` ou `CMD+S`).
-
-### 🔹 Depois de criar, rode no terminal:
-```bash
-git add README.md
-git commit -m "Adiciona README inicial"
-git push
+   - Python 3.10+
+   - Conta no Supabase "https://supabase.com/"
