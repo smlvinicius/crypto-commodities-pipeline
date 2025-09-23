@@ -52,3 +52,5 @@ Este script coleta preços de **Bitcoin** e **Commodities** e salva em um banco 
 
    - Python 3.10+
    - Conta no Supabase "https://supabase.com/"
+     
+## Abaixo um fluxograma seguindo a lógica de execução
