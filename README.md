@@ -55,34 +55,6 @@ Este script coleta preços de **Bitcoin** e **Commodities** e salva em um banco 
      
 ## Abaixo um fluxograma seguindo a lógica de execução
 
-   +-------------------+
-|   APIs Externas   |
-| (Cripto & Commodities) |
-+---------+---------+
-          |
-          v
-+-------------------+
-|   Coleta de Dados |
-|   (Python scripts)|
-+---------+---------+
-          |
-          v
-+-------------------+
-|  Processamento /  |
-|  Transformações   |
-|  (Limpeza)        |
-+---------+---------+
-          |
-          v
-+-------------------+
-|  Armazenamento    |
-|   PostgreSQL      |
-+---------+---------+
-          |
-          v
-+-------------------+
-|  Consulta /       |
-|  Análise / BI     |
-| (Opcional)        |
-+-------------------+
+<img width="1827" height="857" alt="image" src="https://github.com/user-attachments/assets/e2269442-6b86-4a12-ac27-30d703b64f9f" />
+
 
