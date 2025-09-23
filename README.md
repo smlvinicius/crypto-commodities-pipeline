@@ -19,7 +19,7 @@ Este script coleta preços de **Bitcoin** e **Commodities** e salva em um banco 
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/crypto-commodities-pipeline.git
+   git clone https://github.com/smlvinicius/crypto-commodities-pipeline.git
    cd crypto-commodities-pipeline
 
 3. **Crie um ambiente virtual:**
