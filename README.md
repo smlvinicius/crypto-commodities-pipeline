@@ -4,7 +4,7 @@
 ![Postgres](https://img.shields.io/badge/PostgreSQL-Database-green)
 ![Status](https://img.shields.io/badge/status-Working-brightgreen)
 
-Este projeto coleta preços de **Bitcoin** e **Commodities** e salva em um banco de dados **PostgreSQL** (no seu caso usando **Supabase** como exemplo).
+Este script coleta preços de **Bitcoin** e **Commodities** e salva em um banco de dados **PostgreSQL** (no seu caso usando **Supabase** como exemplo).
 
 ---
 
